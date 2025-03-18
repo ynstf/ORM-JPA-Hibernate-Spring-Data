@@ -2,7 +2,7 @@
 
 A comprehensive hospital management system built using Spring Boot, JPA/Hibernate, and H2/MySQL databases. This application manages patients, doctors, appointments, consultations, and includes user authentication.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Spring Boot 3.1.5**: Main framework for building the application
 - **Spring Data JPA**: For database operations
@@ -12,7 +12,7 @@ A comprehensive hospital management system built using Spring Boot, JPA/Hibernat
 - **Project Lombok**: For reducing boilerplate code
 - **Spring Boot Web**: For creating RESTful APIs
 
-## 🗄️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -31,7 +31,7 @@ src/
 ├── pom.xml
 ```
 
-## 📄 Key Files & Components
+## Key Files & Components
 
 ### Entities
 
@@ -190,7 +190,7 @@ spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-## 🔄 Relationships
+## Relationships
 
 The system uses various JPA relationships:
 
@@ -199,7 +199,7 @@ The system uses various JPA relationships:
 - **OneToOne**: An appointment can have one consultation
 - **ManyToMany**: Users can have multiple roles
 
-## 🚀 Features
+## Features
 
 1. **Patient Management**:
    - Add, update, delete patients
@@ -221,7 +221,7 @@ The system uses various JPA relationships:
    - Role-based access control
    - Different roles: ADMIN, USER, DOCTOR
 
-## 🏁 How to Run
+## How to Run
 
 1. **Clone the repository**
    ```
